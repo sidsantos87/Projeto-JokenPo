@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto JokenPÔ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="caixa">
+
+        <h1>JokenPÔ</h1>
+
+        <div class="botao"> 
+
+        <button onclick="startGame('pedra')" id="rock" >&#x1F44A;&#x1F3FD;</button>
+        <button onclick="startGame('papel')" id="paper" >&#x1F590;&#x1F3FD;</button>
+        <button onclick="startGame('tesoura')" id="scissors" >&#x270C;&#x1F3FD;</button>
+
+    </div>
+
+        <p class="resultado"></p>
+        <p class="emotion"></p>
+        <p>Sua Pontuação: <span id="human">0</span></p>
+        <p>Pontuação da Alexa: <span id="machine">0</span></p>
+
+    </div>
+
+</body>
+
+<script src="scritp.js"></script>
+
+</html>

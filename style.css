@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: url(https://picsum.photos/1600/900);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.caixa {
+    background: #ffffff;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 100px 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 50px 0;
+    font-weight: 900;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 20px 50px 20px;
+
+
+}
+
+button {
+    font-size: 100px;
+    border: none;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+#rock {
+    background-color: blue;
+}
+
+#paper {
+    background-color: green;
+}
+
+#scissors {
+    background-color: yellow;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#human {
+    color: aqua;
+}
+
+#machine {
+    color: chocolate;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+      background: #ffffff;
+   
+    }
+  }
