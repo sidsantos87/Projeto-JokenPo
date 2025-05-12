@@ -7,3 +7,7 @@ atenção especial para a linguagem <b><i>JAVASCRIPT</i></b>.</p>
 <br>
 <p>Mais um projeto pensado e desenvolvido à luz dos aprendizados e conhecimentos
 dispostos em sala de aula e praticados para maior percepção dos conteúdos.</p
+<br>
+<h3>Visual</h3>
+<br>
+<img src="./">
