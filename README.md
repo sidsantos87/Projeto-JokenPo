@@ -10,4 +10,4 @@ dispostos em sala de aula e praticados para maior percepção dos conteúdos.</p
 <br>
 <h3>Visual</h3>
 <br>
-<img src="./">
+<img src="src="https://github.com/Sidsantos87/Projeto-we-care/blob/master/img/tela%201%20(1).png?raw=true" alt="imagem-note" width="400px"">
